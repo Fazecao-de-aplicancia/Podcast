@@ -2,12 +2,12 @@
 import 'package:flutter/material.dart';
 import 'package:podcast/pages/home_page.dart';
 
-class loginPage extends StatefulWidget {
+class LoginPage extends StatefulWidget {
   @override
-  _loginPageState createState() => _loginPageState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _loginPageState extends State<loginPage> {
+class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,7 +111,7 @@ class _loginPageState extends State<loginPage> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Home()),
+                        MaterialPageRoute(builder: (context) => AppHome()),
                       );
                     }, 
                     ),
