@@ -23,8 +23,9 @@ class SideMenuScreen extends StatelessWidget {
           padding: EdgeInsets.all(10.0),
           child: Column(
             children: <Widget>[
-              Icon(Icons.home),
-              Icon(Icons.favorite)
+              IconButton(
+                Icon(Icons.favorite),
+              ),
             ]
           )
         ),
